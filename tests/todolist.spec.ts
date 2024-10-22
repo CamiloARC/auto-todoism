@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
+import { IntroPage } from '../pages/IntroPage';
 import { LoginPage } from '../pages/LoginPage';
 import { TaskPage } from '../pages/TaskPage';
-import { IntroPage } from '../pages/IntroPage';
 
 test.describe("Suite de pruebas", () => {
     let introPage: IntroPage;

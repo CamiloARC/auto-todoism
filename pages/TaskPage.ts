@@ -13,15 +13,15 @@ export class TaskPage {
         await this.page.getByPlaceholder('What needs to be done?').press('Enter');
     }
 
+    async verifyTaskVisible(taskName: string) {
+        await this.page.waitForSelector(`text=${taskName}`);
+    }
+
     async completeTask(taskName: string) {
         await this.page.locator('span').filter({ hasText: `check_box_outline_blank ${taskName}` }).locator('i').click();
     }
 
     async clearCompletedTasks() {
         await this.page.getByText('clear_allClear').click();
-    }
-
-    async verifyTaskVisible(taskName: string) {
-        await this.page.waitForSelector(`text=${taskName}`);
     }
 }
