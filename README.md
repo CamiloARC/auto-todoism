@@ -1,2 +1,13 @@
-# auto-todoism
-Taller #3 Tópicos avanzados 
+# Proyecto de Automatización de Pruebas con Playwright
+
+## Descripción
+
+Este repositorio contiene el talle de la asignatura de Tópicos Avanzados, donde se implementa un conjunto de pruebas automatizadas utilizando Playwright.
+
+## Autores
+
+- **Camilo Antonio Ramirez Castillo**
+
+## Requisitos
+
+- **Node** v20 o superior
