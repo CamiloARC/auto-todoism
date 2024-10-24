@@ -20,7 +20,7 @@ test.describe("Suite de pruebas", () => {
     test('Add task', async ({ page }) => {
         await taskPage.addTask('Tarea1');
         await taskPage.verifyTaskVisible('Tarea1');
-    }, { retries: 2 });
+    });
 
     test('Complete task', async ({ page }) => {
         await taskPage.addTask('Tarea2');
