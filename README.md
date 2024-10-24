@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio contiene el talle de la asignatura de Tópicos Avanzados, donde se implementa un conjunto de pruebas automatizadas utilizando Playwright.
+Este repositorio contiene la cuarta entrega de la asignatura de Tópicos Avanzados, donde se implementa un conjunto de pruebas automatizadas utilizando Playwright.
 
 ## Autores
 
