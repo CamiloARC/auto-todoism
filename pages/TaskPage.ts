@@ -8,6 +8,7 @@ export class TaskPage {
     }
 
     async addTask(taskName: string) {
+        await this.page.waitForTimeout(5000);
         await this.page.getByPlaceholder('What needs to be done?').waitFor({ state: 'visible' });
         await this.page.getByPlaceholder('What needs to be done?').click();
         await this.page.getByPlaceholder('What needs to be done?').fill(taskName);
